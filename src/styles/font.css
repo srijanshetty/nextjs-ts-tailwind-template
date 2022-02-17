@@ -1,0 +1,45 @@
+/* poppins-300 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local(''), url('/fonts/poppins-v15-latin-300.woff2') format('woff2'),
+    url('/fonts/poppins-v15-latin-300.woff') format('woff');
+}
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''), url('/fonts/poppins-v15-latin-regular.woff2') format('woff2'),
+    url('/fonts/poppins-v15-latin-regular.woff') format('woff');
+}
+/* poppins-500 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local(''), url('/fonts/poppins-v15-latin-500.woff2') format('woff2'),
+    url('/fonts/poppins-v15-latin-500.woff') format('woff');
+}
+/* poppins-600 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local(''), url('/fonts/poppins-v15-latin-600.woff2') format('woff2'),
+    url('/fonts/poppins-v15-latin-600.woff') format('woff');
+}
+/* poppins-900 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local(''), url('/fonts/poppins-v15-latin-900.woff2') format('woff2'),
+    url('/fonts/poppins-v15-latin-900.woff') format('woff');
+}

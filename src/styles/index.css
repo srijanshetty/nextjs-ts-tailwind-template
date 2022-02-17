@@ -1,0 +1,82 @@
+@import 'tailwindcss/base';
+
+@layer base {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@import 'tailwindcss/components';
+
+@layer components {
+  .btn-basic {
+    @apply px-6 py-3 text-white rounded-lg shadow-lg focus:outline-none shadow-purple-500/50;
+  }
+
+  .btn-basic.disabled {
+    @apply shadow-transparent;
+  }
+
+  /* Needs to be outside @layer to ensure purging doesn't happen */
+  .Toastify__toast-container {
+    @apply px-6 md:w-auto !important;
+  }
+
+  .Toastify__toast {
+    @apply min-h-0 rounded-lg px-4 font-sans font-light mb-4 !important;
+  }
+
+  .Toastify__toast-body {
+    @apply flex items-center md:mr-6 !important;
+  }
+
+  .Toastify__close-button {
+    @apply self-auto !important;
+  }
+}
+
+/* Your own custom component styles */
+
+@import 'tailwindcss/utilities';
+
+.bg-gradient {
+  background: linear-gradient(
+    93.53deg,
+    #5e5ef1 0%,
+    #9b53d4 51.56%,
+    #ff51b3 100%
+  );
+}
+
+.bg-gradient-pink {
+  background: linear-gradient(90deg, #ff4a4a 0%, #dc1fff 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(
+    93.53deg,
+    #5e5ef1 0%,
+    #9b53d4 51.56%,
+    #ff51b3 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wallet-connect-gradient {
+  background: linear-gradient(
+    90deg,
+    rgb(35, 126, 255) 0%,
+    rgb(0, 10, 255) 100%
+  );
+}
+
+.metamask-gradient {
+  background: linear-gradient(
+    90deg,
+    rgb(231, 139, 58) 0%,
+    rgb(231, 172, 58) 100%
+  );
+}

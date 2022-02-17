@@ -1,0 +1,65 @@
+{
+  "name": "sp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "formik": "^2.2.9",
+    "luxon": "^2.3.0",
+    "next": "^12.0.10",
+    "npm": "^8.3.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-loading": "^2.0.3",
+    "react-toastify": "^8.1.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@types/luxon": "^2.0.9",
+    "@types/node": "^17.0.0",
+    "@types/react": "^17.0.37",
+    "autoprefixer": "^10.4.0",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.8",
+    "husky": "^7.0.0",
+    "postcss": "^8.4.5",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^3.0.5",
+    "typescript": "^4.5.4"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "type-enum": [
+        1,
+        "always",
+        [
+          "build",
+          "chore",
+          "docs",
+          "feat",
+          "fix",
+          "lint",
+          "refactor",
+          "revert"
+        ]
+      ]
+    }
+  }
+}
