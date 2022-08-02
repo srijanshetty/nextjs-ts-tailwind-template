@@ -3,7 +3,6 @@ const TABLET_MIN_WIDTH = 768;
 const MOBILE_WIDTH = 960;
 const ONLY_MOBILE_WIDTH = 960;
 const GTM_ID = '';
-let DISCORD_URL = '';
 
 const DOMAIN = '';
 const GLOBAL_META = ``;
@@ -35,5 +34,4 @@ export {
   ORG_SCHEMA,
   GLOBAL_META,
   GLOBAL_TITLE,
-  DISCORD_URL,
 };

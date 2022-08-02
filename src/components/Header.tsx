@@ -72,7 +72,7 @@ const Header = () => {
         })}
       </div>
       <div className="absolute hidden font-light md:flex w-max left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 gap-4 2xl:gap-8 lg:gap-4">
-        {links.map((link, index) => {
+        {/*{links.map((link, index) => {
           <Link href={link.link} key={index} passHref>
             <a
               className={`text-white ${
@@ -83,7 +83,7 @@ const Header = () => {
               {link.title}
             </a>
           </Link>;
-        })}
+          })*/}
       </div>
       <div className="flex items-center md:hidden top-4 left-4">
         <Link href="/dashboard" passHref>

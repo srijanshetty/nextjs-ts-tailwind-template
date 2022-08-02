@@ -16,6 +16,7 @@ export default function Error() {
       <div className="w-full h-full">
         <Image
           src="/img/not-found.svg"
+          alt="404: Not Found"
           layout="responsive"
           height={1}
           width={1}
