@@ -1,7 +1,6 @@
 {
   "name": "next-ts-tailwind-template",
-  "version": "0.2.0",
-  "private": true,
+  "version": "1.0.0",
   "scripts": {
     "lint": "npx tsc",
     "test": "npx eslint -c package.json './**/*.ts*' || true",

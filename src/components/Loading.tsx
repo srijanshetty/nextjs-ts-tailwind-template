@@ -10,7 +10,7 @@ const Loading = ({ className = 'min-h-screen' }) => (
       <img
         className="block mt-4"
         src="/img/logo-dark.svg"
-        alt="allround logo"
+        alt="logo"
       />
     </div>
     <div
@@ -20,7 +20,7 @@ const Loading = ({ className = 'min-h-screen' }) => (
       <img
         className="block mt-4"
         src="/img/logo-dark.svg"
-        alt="allround logo"
+        alt="logo"
       />
     </div>
   </Fragment>
