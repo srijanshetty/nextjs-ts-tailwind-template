@@ -1,9 +1,9 @@
 import Axios from 'axios';
 
-let baseURL = '/api/';
+let baseURL = '/api/v1';
 
 if (process.env.NODE_ENV === 'development') {
-  baseURL = 'http://localhost:3001/api/';
+  baseURL = 'http://localhost:3000/api/v1';
 }
 
 export { baseURL };
